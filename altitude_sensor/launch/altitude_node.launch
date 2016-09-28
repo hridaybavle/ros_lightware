@@ -1,14 +1,14 @@
 <launch>
 	
 
-	<param name="device" type="str" value="/dev/ttylightware_altitude" />
+	<param name="device" type="str" value="/dev/ttyUSB0" />
 
 	
 		<node   pkg="altitude_sensor" 
 			name="altitude_sensor" 
 			type="altitude_sensor_node" />
 
-		<param name="serial_port" type="string" value="/dev/lightware_altitude" />
+		<param name="serial_port" type="string" value="/dev/ttyUSB0" />
 	
 	
 	
